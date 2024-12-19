@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Quando clicar no "Sim"
     document.getElementById('yes-btn').addEventListener('click', () => {
-      alert('💖 Gabriel e Ana Cristina 💖');
+      alert('💖 Agora estamos ficando 💖');
   
       // Seleciona o contêiner para os fogos de artifício
       const container = document.querySelector(".fireworksdiv");
