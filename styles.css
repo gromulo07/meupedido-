@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f8ff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button#yes-btn {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  button#yes-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  button#no-btn {
+    background: #dc3545;
+    color: #fff;
+  }
+  
+  button#no-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* O contêiner para os fogos de artifício */
+  .fireworksdiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Coloca atrás do conteúdo principal */
+  }
+  
