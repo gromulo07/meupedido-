@@ -8,6 +8,13 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .container img
+  {
+    width: 500px; 
+    margin: auto;
+    padding: auto;
+    height: auto;
+  }
   
   .container {
     background: #fff;
